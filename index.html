@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Headline Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <form id="generator-form">
+        <label for="text" class="field-label">Insert headline text: </label>
+        <input id="text" class="field">
+        <label for="line-len" class="field-label">Insert line width: </label>
+        <input id="line-len" value="60" class="field">
+        
+        <button id="generate-btn">Generate!</button>
+
+        <label for="text" class="field-label">Result: </label>
+        <textarea id="result" class="result-container"></textarea>
+
+        <div id="message"></div>
+    </form>
+
+    <script src="ascii-generator.js"></script>
+</body>
+</html>
